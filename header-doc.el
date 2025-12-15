@@ -21,6 +21,7 @@
     (puthash "nasm"             ";"  comment-prefixes)
     (puthash "python"		"#"  comment-prefixes)
     (puthash "c"		"//" comment-prefixes)
+    (puthash "c++"              "//" comment-prefixes)
     (puthash "haskell"		"--" comment-prefixes)
     
     (gethash lang-mode comment-prefixes)))

@@ -21,5 +21,5 @@ depending on the language being used.
 // <insert notes here>
 //
 //
-// (C) <month/year>
+// created: <day/month/year>
 ```

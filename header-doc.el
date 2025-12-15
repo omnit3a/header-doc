@@ -16,6 +16,7 @@
 
     ; hashmap containing string used to start a comment
     (puthash "emacs-lisp"       ";"  comment-prefixes)
+    (puthash "lisp"             ";"  comment-prefixes)
     (puthash "racket"           ";"  comment-prefixes)
     (puthash "scheme"           ";"  comment-prefixes)
     (puthash "nasm"             ";"  comment-prefixes)

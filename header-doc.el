@@ -2,7 +2,7 @@
 ; personal emacs script that allows for easy creation of code file documentation
 ; at the top of a file. automatically uses the correct comment syntax, depending 
 ; on the language.
-; (C) 12/2025
+; created: 14/12/2025
 
 (defun header-doc-get-mode ()
   (let ((lang-mode-string)
@@ -35,4 +35,4 @@
     (insert (format "%s <insert notes here>\n" comment-prefix))
     (insert (format "%s \n" comment-prefix))
     (insert (format "%s \n" comment-prefix))
-    (insert (format "%s (C) %s\n\n" comment-prefix (format-time-string "%m/%Y")))))
+    (insert (format "%s created: %s\n\n" comment-prefix (format-time-string "%d/%m/%Y")))))

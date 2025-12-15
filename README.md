@@ -7,7 +7,7 @@ personal emacs plugin that allows for easy automation of file info comments. Wor
 - scheme
 - nasm
 - python
-- c
+- c/c++
 - haskell
 
 # usage

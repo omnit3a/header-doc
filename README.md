@@ -12,7 +12,7 @@ personal emacs plugin that allows for easy automation of file info comments. Wor
 - haskell
 
 # usage
-`M-x header-doc-create` creates the comment section at the start of the file.
+`M-x header-doc-create` prompts the user for the amount of lines of comments, then creates the comment section at the start of the file.
 
 # format
 note that this example is using C-style comment notation, but header-doc will automatically change comment styles

@@ -43,5 +43,3 @@
       (dotimes (number lines)
 	(insert (format "%s \n" comment-prefix)))))
     (insert (format "%s created: %s\n\n" comment-prefix (format-time-string "%d/%m/%Y")))))
-
-(header-doc-create)

@@ -1,5 +1,5 @@
 # header-doc
-personal emacs plugin that allows for easy automation of file info comments. Works with any of the languages that I program in
+personal emacs plugin that allows for easy automation of file info comments. Works with any of the languages that I program in.
 
 # supported languages
 - emacs lisp

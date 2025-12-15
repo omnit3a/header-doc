@@ -1,11 +1,14 @@
 # header-doc
-personal emacs plugin that allows for easy automation of file info comments. (Aims to be) Language agnostic
+personal emacs plugin that allows for easy automation of file info comments. Works with any of the languages that I program in
 
 # supported languages
-- c
-- python
 - emacs lisp
 - racket
+- scheme
+- nasm
+- python
+- c
+- haskell
 
 # usage
 `M-x header-doc-create` creates the comment section at the start of the file.

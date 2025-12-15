@@ -3,6 +3,7 @@ personal emacs plugin that allows for easy automation of file info comments. Wor
 
 # supported languages
 - emacs lisp
+- lisp
 - racket
 - scheme
 - nasm

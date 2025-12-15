@@ -15,14 +15,14 @@
 	(comment-prefixes (make-hash-table :test 'equal)))
 
     ; hashmap containing string used to start a comment
-    (puthash "emacs-lisp"	";"  comment-prefixes)
-    (puthash "racket"		";"  comment-prefixes)
+    (puthash "emacs-lisp"       ";"  comment-prefixes)
+    (puthash "racket"           ";"  comment-prefixes)
     (puthash "scheme"           ";"  comment-prefixes)
     (puthash "nasm"             ";"  comment-prefixes)
-    (puthash "python"		"#"  comment-prefixes)
-    (puthash "c"		"//" comment-prefixes)
+    (puthash "python"           "#"  comment-prefixes)
+    (puthash "c"                "//" comment-prefixes)
     (puthash "c++"              "//" comment-prefixes)
-    (puthash "haskell"		"--" comment-prefixes)
+    (puthash "haskell"          "--" comment-prefixes)
     
     (gethash lang-mode comment-prefixes)))
 

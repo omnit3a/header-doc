@@ -43,3 +43,13 @@
       (dotimes (number lines)
 	(insert (format "%s \n" comment-prefix)))))
     (insert (format "%s created: %s\n\n" comment-prefix (format-time-string "%d/%m/%Y")))))
+
+(defun header-doc-includes-c ()
+  (interactive)
+  (catch 'exit
+  (when (not (string-equal (header-doc-get-mode) "c"))
+    (message "Not in C-Mode")
+    (throw 'exit t))
+  (insert "// standard library\n\n")
+  (insert "// external libraries\n\n")
+  (insert "// internal headers\n\n")))
